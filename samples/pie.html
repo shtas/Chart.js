@@ -15,7 +15,7 @@
 
 
 	<script>
-
+  window.onload = function() {
 		var pieData = [
 				{
 					value: 30,
@@ -31,8 +31,10 @@
 				}
 			
 			];
+  }
 
 	var myPie = new Chart(document.getElementById("canvas").getContext("2d")).Pie(pieData);
+};
 	
 	</script>
 	</body>
